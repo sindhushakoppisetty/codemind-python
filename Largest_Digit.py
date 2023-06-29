@@ -1,3 +1,3 @@
-n=int(input())
-m=str(n)
-print(max(m))
+s=int(input())
+s1=str(s)
+print(max(s1))
