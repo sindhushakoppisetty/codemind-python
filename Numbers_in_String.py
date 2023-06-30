@@ -1,8 +1,7 @@
 s=input()
-c="".join(s)
-c1=list(c)
-s=0
-for i in c1:
+b=" ".join(s)
+c=0
+for i in s:
     if i.isdigit():
-        s+=int(i)
-print(s)
+        c+=int(i)
+print(c)
