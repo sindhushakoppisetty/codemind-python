@@ -13,4 +13,3 @@ for i in range(1,20):
     if prime(c+i):
         print(i)
         break
-        
