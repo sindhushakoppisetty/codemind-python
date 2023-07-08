@@ -10,5 +10,4 @@ c=0
 for j in range(1,n+1):
     if n%j==0 and prime(j)==0:
         c=c+1
-        #print(i,end=" ")
 print(c)
