@@ -9,7 +9,7 @@ def prime(n):
 n=int(input())
 m=int(input())
 c=0
-for i in range(n,m+1):
-    if prime(i):
-        c+=1
-        print(i)
+for j in range(n,m+1):
+    if prime(j):
+        c=c+1
+        print(j)
