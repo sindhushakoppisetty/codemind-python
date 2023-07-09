@@ -16,4 +16,4 @@ N=int(input())
 if(is_ugly(N)):
     print("Ugly Number")
 else:
-    print("Not Ugly Number")
+   print("Not Ugly Number")
