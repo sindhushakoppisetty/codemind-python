@@ -1,10 +1,10 @@
 n=int(input())
-ec=0
-oc=0
-a=list(map(int,input().split()))
-for i in range(len(a)):
-    if(a[i]%2==0):
-        ec+=1
-    if(a[i]%2!=0):
-        oc+=1
-print(ec,oc,end=' ')
+l=list(map(int,input().split()))
+e=0
+o=0
+for i in l:
+    if i%2==0:
+        e+=1
+    else:
+        o+=1
+print(e,o)
