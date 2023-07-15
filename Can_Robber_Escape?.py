@@ -1,10 +1,10 @@
 n=int(input())
-l=list(map(int,input().split()))
-odd,even=0,0
-for i in l:
-    if i%2!=0:
-        odd+=1
-if odd>2:
-    print('NO')
+c=0
+a=list(map(int,input().split()))
+for i in range(len(a)):
+    if(a[i]%2!=0):
+        c+=1
+if(c<=2):
+    print('YES')
 else:
-    print("YES")
+    print('NO')
